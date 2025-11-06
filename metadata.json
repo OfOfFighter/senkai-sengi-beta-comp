@@ -1,0 +1,5 @@
+{
+  "name": "senkai-sengi-beta-comp",
+  "description": "A digital implementation of the trading card game 'Senkai Sengi'. This application allows players to build decks and engage in two-player battles, following the official rules. It features the three pre-built starter decks for immediate play.",
+  "requestFramePermissions": []
+}
