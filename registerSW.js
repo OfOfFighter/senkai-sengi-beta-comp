@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/senkai-sengi-beta-comp/sw.js', { scope: '/senkai-sengi-beta-comp/' })})}
