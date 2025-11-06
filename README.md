@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+## 千怪戦戯　デジタルカードシステム　ベータ版
+概要
+-ダイソーオリジナルカードゲーム千怪戦戯をGoogle AI Studioと協力して作りました
 
-# Run and deploy your AI Studio app
+#メインメニューに戻りたい場合はリロード（再読み込みしてください）
 
-This contains everything you need to run your app locally.
+スタート画面の右上から画面レイアウトを変更できます。表示が
+SPなら縦画面に特化したスマートフォンモード
+PCなら横画面に特化したスマートフォンモード
 
-View your app in AI Studio: https://ai.studio/apps/drive/1lqfEhEkZt83h9dvv4fIaHi5XqHP-de58
+メインメニューの説明
+CPUと対戦
+CPUと戦えます、弱いです。バグを見つけましょう。先攻後攻はランダム
+対人戦
+一人回しができます。メニューから先攻後攻を決めてください。二人分のカードを操作します
+デッキ構築
+デッキが作れます。UIが終わっています。
+インポート
+デッキ構築で作ったjsonファイルを読み込むと、上のメニューに作ったデッキが選択肢として追加されます
 
-## Run Locally
+#現在はスタートデッキのカードしかありませんがスタートデッキの動作のバグが取れ次第後々追加予定です
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+デッキ構築画面はPC版が見やすくてお勧めです。エクスポートボタンでJSONファイルとして書き出し、インポートで読み込んでデッキを使うことができます

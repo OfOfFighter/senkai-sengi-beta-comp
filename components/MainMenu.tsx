@@ -109,7 +109,7 @@ export const MainMenu: React.FC<MainMenuProps> = ({ onStartGame, onGoToDeckBuild
     );
 
     return (
-        <div className="flex flex-col items-center justify-center h-[80vh] px-4">
+        <div className="flex flex-col items-center justify-center min-h-[calc(100vh-5rem)] px-4">
             <input type="file" accept=".json" ref={fileInputRef} onChange={handleFileChange} style={{ display: 'none' }} />
             <div className="bg-slate-800 p-6 sm:p-8 rounded-lg shadow-2xl w-full max-w-md space-y-6 border-2 border-yellow-500/50">
                 <h2 className="text-3xl font-bold text-center text-yellow-300">{t('game_setup')}</h2>
