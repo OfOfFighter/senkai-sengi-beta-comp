@@ -1,5 +1,6 @@
-## 千怪戦戯　デジタルカードシステム　ベータ版
 ここから遊べます！！　　https://ofoffighter.github.io/senkai-sengi-beta-comp/
+
+## 千怪戦戯　デジタルカードシステム　ベータ版
 #概要
  -ダイソーオリジナルカードゲーム千怪戦戯をGoogle AI Studioと協力して作りました
 
